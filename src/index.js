@@ -44,7 +44,16 @@ function decode(expr) {
     for (let i = 0; i < part.length; i++) {
         part[i] = part[i].replace(/11/g, '-').replace(/10/g, '.').replace(/0/g, '');
     }
-        
+     
+    
+    for (let i = 0; i < part.length; i++) {
+        if (part[i] !=" "){
+            
+            part[i]=MORSE_TABLE[part[i]]
+            
+        }
+      }
+      
 
 
 
