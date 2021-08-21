@@ -53,12 +53,8 @@ function decode(expr) {
             
         }
       }
-      
 
-
-
-
-
+return part.join('')
 
     
 }
